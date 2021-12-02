@@ -36,10 +36,21 @@ code {
 	margin: 5px;
 	box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
 	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
 }
 
 .exchange-rate {
 	background-color: rgb(221, 213, 221);
+	padding: 20px;
+	margin-top: 10px;
+	box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
+	border-radius: 10px;
+}
+
+.bitcoin-rate {
+	background-color: rgb(196, 233, 237);
 	padding: 20px;
 	margin-top: 10px;
 	box-shadow: 0 3px 10px rgb(0 0 0 /0.2);

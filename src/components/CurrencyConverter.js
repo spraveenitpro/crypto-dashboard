@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ExchangeRate from "./ExchangeRate";
 import axios from "axios";
+import BitcoinRate from "./BitcoinRate";
 
 const CurrencyConverter = () => {
 	const currencies = ["BTC", "ETH", "USD", "XRP", "LTC", "ADA"];
@@ -125,6 +126,7 @@ const CurrencyConverter = () => {
 			</div>
 
 			<ExchangeRate exchangedData={exchangedData} />
+			<BitcoinRate />
 		</div>
 	);
 };
