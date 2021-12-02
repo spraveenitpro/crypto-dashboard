@@ -24,7 +24,7 @@ const NewsFeed = () => {
 			});
 	}, []);
 	console.log(articles);
-	const first7Articles = articles?.slice(4, 12);
+	const first7Articles = articles?.slice(55, 66);
 	return (
 		<div className="news-feed">
 			<h2>NewsFeed</h2>
